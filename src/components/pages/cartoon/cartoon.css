@@ -1,0 +1,21 @@
+.cartoon{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: black;
+}
+img{
+    height: 300px;
+    
+}
+button{
+    height: 30px;
+}
+
+.myteam{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
