@@ -1,0 +1,7 @@
+.hp{
+    background-image:url("./bg\ asset.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 85vh;
+    background-color:rgb(208, 21, 121);
+}

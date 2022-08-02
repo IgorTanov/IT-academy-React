@@ -1,10 +1,10 @@
-
+import "./homepage.css"
 
 
 const HomePage=(props)=>{
     return(
-        <div className="homepage">
-            Home
+        <div className="hp">
+            
         </div>
     )
 }
