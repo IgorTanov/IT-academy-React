@@ -9,6 +9,7 @@ const Cartoon = (props) => {
 
     const soloElement = () => {
         setInfo({ id, url, name, description })
+        
     }
 
     return (
