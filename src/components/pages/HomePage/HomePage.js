@@ -1,4 +1,4 @@
-import "./homepage.css"
+import "./homePage.css"
 
 
 const HomePage=(props)=>{
