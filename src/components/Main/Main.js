@@ -3,6 +3,7 @@ import List from "../pages/List/List";
 import HomePage from "../pages/HomePage/HomePage";
 import NotFound from "../pages/NotFound/NotFound";
 import { Route, Routes } from "react-router-dom";
+import MyTeam from "../pages/MyTeam/MyTeam";
 
 
 const Main = (props) => {
@@ -13,6 +14,8 @@ const Main = (props) => {
                 <Route path="character" element={<HeroInfo />} />
                 <Route path="*" element={<NotFound />} />
                 <Route path="/" element={<HomePage />} />
+                <Route path="my_team" element={<MyTeam />} />
+                
             </Routes>
         </div>
     )

@@ -3,6 +3,7 @@
     border: solid red 1px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
 }
 .infport{
@@ -16,10 +17,14 @@
 }
 .characters{
     display: flex;
-    justify-content: flex-end;
-    width: 50%;
+   
     flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: center;
 }
-.homepage{
-    width: 50%;
+
+
+.marvel:hover{
+    background-color:rgb(208, 21, 121);
+    
 }
