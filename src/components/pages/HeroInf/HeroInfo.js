@@ -17,7 +17,7 @@ const HeroInfo = (props) => {
     }, [])
   
     if (data === undefined || id===undefined || id==="") {
-        return (<div>!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</div>)
+        return (<div>SSSSSSSSPPPPPPPPPIIIIIIIIIINNNNNNNEEEEEERRRRRRR</div>)
     } else{
     const name = data.data.results[0].name;
     const url = data.data.results[0].thumbnail.path + "." + data.data.results[0].thumbnail.extension;
