@@ -1,13 +1,12 @@
 
 
 .page{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 2rem 2rem 2rem 2rem 2rem;
+    justify-items: stretch;
     justify-content: center;
 }
 
-.page1{
- height: 20px;
-    width: 20px;
-    background-color:blue;
+.somepage:onSelect{
+font-size: 110%;
 }
