@@ -15,7 +15,7 @@ const HeroEnter = (props) => {
             <div className="heroenter" id={id}  >
                 <img src={url} alt="img" className="img"></img>
                 <span>{name}</span>
-                <span>{description}</span>
+                <span className="des">{description}</span>
             </div>
         )
 }

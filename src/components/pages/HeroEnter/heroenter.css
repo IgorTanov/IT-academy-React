@@ -8,12 +8,55 @@
     top: 60px;
     left: 0;
     width: 50p;
-    
-    
 }
+.des{
+    width: 200px;
+}
+@media screen and (min-width:500px) and (max-width:626px){
+    .hero{
+        min-width: 150px
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    .cartoon{
+        width: 150px;
+    }
+    .all{
+        width: 150px;
+    }
+    .des{
+        width: 150px;
+    }
+}
+
 @media screen and (min-width:200px) and (max-width:499px){
  
     .heroenter{
         top:90px
     }
+    .hero{
+        min-width: 150px
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    .cartoon{
+        width: 150px;
+    }
+    .all{
+        width: 150px;
+    }
+    button{
+        height: 55px;
+    }
+    .heroenter{
+        top:90px
+    }
+    .des{
+        width: 150px;
+    }
 }
+

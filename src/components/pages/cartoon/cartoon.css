@@ -32,17 +32,20 @@ button{
 }
 @media screen and (min-width:500px) and (max-width:626px){
     .hero{
-        min-width: 200px
+        min-width: 150px
     }
     img{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
     .cartoon{
-        width: 200px;
+        width: 150px;
     }
     .all{
-        width: 200px;
+        width: 150px;
+    }
+    .des{
+        width: 50px;
     }
 }
 
@@ -65,5 +68,8 @@ button{
     }
     .heroenter{
         top:90px
+    }
+    .des{
+        width: 150px;
     }
 }
