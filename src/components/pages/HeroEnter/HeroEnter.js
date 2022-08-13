@@ -13,7 +13,7 @@ const HeroEnter = (props) => {
     } else
         return (
             <div className="heroenter" id={id}  >
-                <img src={url} alt="img"></img>
+                <img src={url} alt="img" className="img"></img>
                 <span>{name}</span>
                 <span>{description}</span>
             </div>

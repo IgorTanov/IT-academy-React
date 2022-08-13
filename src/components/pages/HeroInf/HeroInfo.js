@@ -25,6 +25,7 @@ const HeroInfo = (props) => {
     const url = data.thumbnail.path + "." + data.thumbnail.extension;
     const description = data.description;
     const comics = data.urls[2]
+    
     return (  
         <div className="heroinfo">
             <img src={url} alt="img"></img>
